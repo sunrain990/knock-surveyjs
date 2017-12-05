@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Knockout</title>
+    <script src="https://unpkg.com/jquery"></script>
+
+    <!-- dx charts -->
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/globalize/0.1.1/globalize.min.js"></script>
+    <script type="text/javascript" src="http://cdn3.devexpress.com/jslib/15.1.5/js/dx.chartjs.js"></script>
+
+    <script src="https://cdn.bootcss.com/survey-jquery/0.97.0/survey.jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- custom widgets -->
+    <!-- image-picker -->
+    <link href="https://cdn.bootcss.com/image-picker/0.3.0/image-picker.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/image-picker/0.3.0/image-picker.js"></script>
+    <!-- eo image-picker -->
+
+    <!-- sortablejs -->
+    <script src="https://cdn.bootcss.com/Sortable/1.6.0/Sortable.js"></script>
+    <!-- eo sortablejs -->
+
+    <!-- icheckmatrix -->
+    <link rel="stylesheet" href="https://unpkg.com/icheck@1.0.2/skins/square/blue.css">
+    <style>
+        /* iCheck plugin Square skin, blue
+----------------------------------- */
+        .icheckbox_square-blue,
+        .iradio_square-blue {
+            display: inline-block;
+            *display: inline;
+            vertical-align: middle;
+            margin: 0;
+            padding: 0;
+            width: 22px;
+            height: 22px;
+            background: url(blue.png) no-repeat;
+            border: none;
+            cursor: pointer;
+        }
+
+        .icheckbox_square-blue {
+            background-position: 0 0;
+        }
+        .icheckbox_square-blue.hover {
+            background-position: -24px 0;
+        }
+        .icheckbox_square-blue.checked {
+            background-position: -48px 0;
+        }
+        .icheckbox_square-blue.disabled {
+            background-position: -72px 0;
+            cursor: default;
+        }
+        .icheckbox_square-blue.checked.disabled {
+            background-position: -96px 0;
+        }
+
+        .iradio_square-blue {
+            background-position: -120px 0;
+        }
+        .iradio_square-blue.hover {
+            background-position: -144px 0;
+        }
+        .iradio_square-blue.checked {
+            background-position: -168px 0;
+        }
+        .iradio_square-blue.disabled {
+            background-position: -192px 0;
+            cursor: default;
+        }
+        .iradio_square-blue.checked.disabled {
+            background-position: -216px 0;
+        }
+
+        /* HiDPI support */
+        @media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+            .icheckbox_square-blue,
+            .iradio_square-blue {
+                background-image: url(blue@2x.png);
+                -webkit-background-size: 240px 24px;
+                background-size: 240px 24px;
+            }
+        }
+    </style>
+    <script src="https://unpkg.com/icheck@1.0.2"></script>
+    <!-- eo icheckmatrix -->
+    <!-- eo custom widgets-->
+</head>
+
+<body>
+<div id="surveyElement">
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
