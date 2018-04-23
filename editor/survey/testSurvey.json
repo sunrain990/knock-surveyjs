@@ -1,0 +1,112 @@
+{
+    "questionTitleTemplate": "{no}) {require} {title}",
+    "questionStartIndex": "1",
+    "requiredText": "*",
+    "title": "New Score Test",
+    "pages": [
+        {
+            "name": "Page1",
+            "questions": [
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "Y",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "N",
+                            "text": "No"
+                        }
+                    ],
+                    "choicescores": [
+                        {
+                            "value": "Y",
+                            "score": "0"
+                        },
+                        {
+                            "value": "N",
+                            "score": "30"
+                        }
+                    ],
+                    "choicesOrder": "",
+                    "colCount": "",
+                    "hasOther": "false",
+                    "hasComment": "false",
+                    "isRequired": "false",
+                    "name": "question1",
+                    "visibleIf": "",
+                    "otherText": "",
+                    "title": "Contract ?",
+                    "visible": "true"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "1",
+                            "text": "Error"
+                        },
+                        {
+                            "value": "2",
+                            "text": "No Complaince"
+                        }
+                    ],
+                    "choicescores": [
+                        {
+                            "value": "1",
+                            "score": "20"
+                        },
+                        {
+                            "value": "2",
+                            "score": "30"
+                        }
+                    ],
+                    "choicesOrder": "",
+                    "colCount": "",
+                    "hasOther": "false",
+                    "hasComment": "false",
+                    "isRequired": "false",
+                    "name": "question2",
+                    "visibleIf": "{question1}='N'",
+                    "otherText": "",
+                    "title": "Additional for Contract ?",
+                    "visible": "true"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "Y",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "N",
+                            "text": "No"
+                        }
+                    ],
+                    "choicescores": [
+                        {
+                            "value": "Y",
+                            "score": "0"
+                        },
+                        {
+                            "value": "N",
+                            "score": "20"
+                        }
+                    ],
+                    "choicesOrder": "",
+                    "colCount": "",
+                    "hasOther": "false",
+                    "hasComment": "false",
+                    "isRequired": "false",
+                    "name": "question3",
+                    "visibleIf": "",
+                    "otherText": "",
+                    "title": "Is Order ?",
+                    "visible": "true"
+                }
+            ]
+        }
+    ]
+}

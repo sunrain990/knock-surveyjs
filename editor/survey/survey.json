@@ -1,0 +1,299 @@
+{
+    "pages": [
+        {
+            "name": "page1",
+            "questions": [
+                {
+                    "type": "comment",
+                    "name": "Documents Received"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Sufficient Documentation to Support Trans.? (Yes/No/NA)"
+                },
+                {
+                    "type": "text",
+                    "name": "Invoice No."
+                },
+                {
+                    "type": "text",
+                    "name": "Invoice Date (dd/mm/yyyy)"
+                },
+                {
+                    "type": "text",
+                    "name": "PO Number"
+                },
+                {
+                    "type": "text",
+                    "name": "PO Date(dd/mm/yyyy)"
+                },
+                {
+                    "type": "comment",
+                    "name": "Expense Description and Business Purpose"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Transaction Recorded in Appropriate GL Account? (Yes/No/NA)"
+                },
+                {
+                    "type": "text",
+                    "name": "Payment Method"
+                },
+                {
+                    "type": "text",
+                    "name": "Vendor/Payee Name"
+                },
+                {
+                    "type": "text",
+                    "name": "Payee Bank Account Location (if Wire Transfer)"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Involves Gov't Hospital or Entity? (Yes/No/NA)"
+                },
+                {
+                    "type": "text",
+                    "name": "Name of Relevant Gov't Hospital or Entity"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Involves HCP(s)? (Yes/No/NA)"
+                },
+                {
+                    "type": "text",
+                    "name": "Name of Relevant HCP(s)"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "question1"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Related Contract? (Yes/No/NA)"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Transaction In Line w/ Contract Terms? (Yes/No/NA)"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Req'd Approvals / Auth. Received? (Yes/No/NA)"
+                },
+                {
+                    "type": "text",
+                    "name": "Relevant Work stream(s)"
+                },
+                {
+                    "type": "comment",
+                    "name": "Comments / Notes"
+                },
+                {
+                    "type": "radiogroup",
+                    "choices": [
+                        {
+                            "value": "yes",
+                            "text": "yes"
+                        },
+                        {
+                            "value": "no",
+                            "text": "no"
+                        },
+                        {
+                            "value": "NA",
+                            "text": "NA"
+                        }
+                    ],
+                    "name": "Exceptions? (Yes/No/NA)"
+                },
+                {
+                    "type": "dropdown",
+                    "choices": [
+                        "one",
+                        {
+                            "value": "two",
+                            "text": "second value"
+                        },
+                        {
+                            "value": "three",
+                            "text": "third value"
+                        }
+                    ],
+                    "name": "Exception Category"
+                },
+                {
+                    "type": "dropdown",
+                    "choices": [
+                        "one",
+                        {
+                            "value": "two",
+                            "text": "second value"
+                        },
+                        {
+                            "value": "three",
+                            "text": "third value"
+                        }
+                    ],
+                    "name": "Exception Sub Category"
+                },
+                {
+                    "type": "comment",
+                    "name": "Additional Documents requested"
+                },
+                {
+                    "type": "comment",
+                    "name": "Additional Documents Received"
+                },
+                {
+                    "type": "dropdown",
+                    "choices": [
+                        "one",
+                        {
+                            "value": "two",
+                            "text": "second value"
+                        },
+                        {
+                            "value": "three",
+                            "text": "third value"
+                        }
+                    ],
+                    "name": "Primary Review Status"
+                },
+                {
+                    "type": "dropdown",
+                    "choices": [
+                        "one",
+                        {
+                            "value": "two",
+                            "text": "second value"
+                        },
+                        {
+                            "value": "three",
+                            "text": "third value"
+                        }
+                    ],
+                    "name": "Secondary Reviewer"
+                },
+                {
+                    "type": "text",
+                    "name": "Secondary Review Status"
+                },
+                {
+                    "type": "text",
+                    "name": "Transaction Status"
+                }
+            ]
+        }
+    ]
+}

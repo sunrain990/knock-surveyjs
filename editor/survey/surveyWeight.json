@@ -1,0 +1,57 @@
+{
+    "riskMapping": {    
+      "low": 0,     // summarize the total points for level 3
+      "medium": 60,    // summarize the total points for level 2
+      "high": 30    // summarize the total points for level 1
+    },
+    "scoreMapping": {
+      "question1": {       
+        "type": "radiogroup",
+        "level": "1",
+        "choices": {    
+          "Y": 0,
+          "N": 30   // if answer is 'N'
+        }
+      },
+      "question2": {
+        "type": "radiogroup",   
+        "level": "2",
+        "choices": {    
+          "Y": 0,
+          "N": 20   // if answer is 'N'
+        }
+      },
+      "question3": {
+        "type": "radiogroup",
+        "level": "2",
+        "choices": {
+          "Yes": 0,   // if answer is 'Y'
+          "No": 0  
+        }
+      },
+      "question4": {    
+        "type": "radiogroup",
+        "level": "2",
+        "choices": {
+          "Y": 0,
+          "N": 20   // if answer is 'N'
+        }
+      },
+      "question5": {
+        "type": "radiogroup", 
+        "level": "2",  
+        "choices": {
+          "Y": 0,
+          "N": 20   // if answer is 'N'
+        }
+      },
+      "question6": {
+        "type": "radiogroup",
+        "level": "2",
+        "choices": {
+          "Y": 0,   // if answer is 'Y'
+          "N": 0 
+        }
+      }
+    }
+  }
