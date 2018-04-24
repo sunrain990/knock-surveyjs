@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom widget: Bar rating widget, Vue Survey Library Example</title>
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://surveyjs.azureedge.net/1.0.18/survey.vue.js"></script>
+    <link href="https://surveyjs.azureedge.net/1.0.18/survey.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://unpkg.com/jquery-bar-rating"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- Themes -->
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/bars-1to10.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/bars-movie.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/bars-square.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/bars-pill.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/bars-reversed.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/bars-horizontal.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/css-stars.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/bootstrap-stars.css">
+    <link rel="stylesheet" href="https://unpkg.com/jquery-bar-rating@1.2.2/dist/themes/fontawesome-stars-o.css">
+    <script src="https://unpkg.com/surveyjs-widgets"></script>
+
+</head>
+<body>
+<div id="surveyElement">
+    <survey :survey='survey'/>
+</div>
+<div id="surveyResult"></div>
+
+<script type="text/javascript" src="./index.js"></script>
+
+</body>
+</html>
