@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to JQuery</title>
+    <script src="../assets/jquery.min.js"></script>
+
+    <script src="../assets/survey.jquery.js"></script>
+
+
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/survey.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+<div>
+    <span>Type the number of geneated items in the question (max 20): </span><input type="text" id="itemsCount" value="5" />
+    <button onClick="generate()">Generate (emulate web service)</button>
+</div>
+<div id="surveyElement"></div>
+<div id="surveyResult"></div>
+<script src="./index.js"></script>
+</body>
+
+</html>

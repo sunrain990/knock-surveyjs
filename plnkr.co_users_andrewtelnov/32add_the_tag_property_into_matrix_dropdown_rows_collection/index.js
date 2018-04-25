@@ -4,6 +4,9 @@ Survey.defaultBootstrapCss.navigationButton = "btn btn-green";
 Survey.JsonObject.metaData.addClass("itemvalue_matrixrow", ["tag"], function() { return new Survey.ItemValue(null); }, "itemvalue");
 Survey.JsonObject.metaData.findProperty("matrixdropdown", "rows").type = "itemvalue_matrixrow";
 
+Survey.JsonObject.metaData.addClass("itemvalue_matrixchoice", ["score"], function() { return new Survey.ItemValue(null); }, "itemvalue");
+Survey.JsonObject.metaData.findProperty("matrixdropdown", "choices").type = "itemvalue_matrixchoice";
+
 
 var editorOptions = {};
 var editor = new SurveyEditor.SurveyEditor("editorElement", editorOptions);
