@@ -1,0 +1,12 @@
+.progress {
+    overflow: hidden;
+    background-color: gray;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.bar-green {
+    background-color: #1ab394;
+    color: #fff;
+    padding-left: 10px;
+    float: left;
+}

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to JQuery</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="https://surveyjs.azureedge.net/0.12.18/survey.jquery.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+<div>
+    <span>The number of people ran survey is: </span><span id="response">Loading...</span>
+    <br />
+    <span>The number of people who is using JavaScript is: </span><span id="javaScriptUsage">Loading...</span>
+</div>
+<p>
+<div>
+    <div>Show survey if:</div>
+    <select id="ranAll" value="50000">
+        <option value="5000">The number of ran survey is less than 5000</option>
+        <option value="50000" selected>The number of ran survey is  survey less than 50.000</option>
+    </select>
+    <span> and </span>
+    <select id="selectJavascript" value="20000">
+        <option value="2000">The number of using Javascript is less than 2000</option>
+        <option value="20000" selected>The number of using Javascript is less than 20.000</option>
+    </select>
+    <button onclick="reRunSurvey();">Run results one more time</button>
+</div>
+<div id="surveyElement"></div>
+<div id="chartContainer"></div>
+<div id="surveyResult"></div>
+<script src="./index.js"></script>
+</body>
+
+</html>
